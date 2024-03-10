@@ -1,0 +1,114 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  background-color: aquamarine;
+  /* height: 58px; */
+}
+
+.jumbotron a i {
+  margin: 0 8px;
+}
+
+/* about */
+.about .text {
+  font-size: 16px;
+}
+
+.cv-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  line-height: 45px;
+}
+
+.cv-float i {
+  font-size: 24px;
+  color: red;
+}
+
+#histori img {
+  object-fit: cover;
+  height: 100%;
+}
+
+#histori .card-tittle a {
+  text-decoration: none;
+  color: #212529;
+}
+
+#histori .card-text {
+  font-size: 16px;
+  color: rgb(97, 96, 96);
+}
+
+#gallery .img-fluid {
+  width: 324px;
+  height: 216px;
+  object-fit: cover;
+  /* border: #000 solid; */
+  /* box-shadow: #212529 2px; */
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .jumbotron {
+    height: 600px;
+  }
+
+  #histori .card-tittle {
+    font-size: 19px;
+  }
+  #histori .card-text {
+    font-size: 14px;
+    color: rgb(116, 114, 114);
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 24px;
+  }
+
+  .navbar-nav {
+    font-size: 18px;
+  }
+
+  .navbar-nav li:hover {
+    border-bottom: 3px solid rgb(19, 17, 17);
+    margin-top: -3px;
+  }
+
+  .jumbotron {
+    height: 655px;
+  }
+
+  .jumbotron img {
+    width: 250px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+  .jumbotron .lead {
+    font-size: 24px;
+  }
+
+  /* about */
+  .about .text {
+    font-size: 20px;
+    text-align: center;
+  }
+}
